@@ -1,0 +1,37 @@
+.docs-contents{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px}
+.docs-contents button{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--paper);color:inherit;border-radius:8px;padding:10px 12px;font-size:12px}
+.docs-contents button:hover{background:var(--accent)}
+.docs-contents button span{color:var(--muted);font-size:10px}
+.docs-section{padding:26px;margin-bottom:22px;scroll-margin-top:22px}
+.docs-section-title{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.docs-section-title>span{display:grid;place-items:center;background:var(--accent);color:var(--green);width:30px;height:30px;border-radius:8px;font-size:11px;flex-shrink:0}
+.docs-section h2{font-size:20px;letter-spacing:-.4px}
+.docs-section h3{font-size:13px;font-weight:650;margin-bottom:7px}
+.docs-section p,.docs-section dd{font-size:13px;line-height:1.85;color:var(--muted)}
+.docs-section b{color:var(--green);font-weight:600}
+.docs-intro{margin-bottom:22px}
+.docs-steps{margin:0 0 24px;padding-left:24px}
+.docs-steps li{padding:0 0 22px 7px}
+.docs-steps li:last-child{padding-bottom:0}
+.docs-steps li::marker{color:var(--green);font-weight:650}
+.docs-address{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:var(--accent);border:1px solid var(--line);border-radius:8px;margin-top:12px;padding:10px 13px}
+.docs-address code{font-size:12px;overflow-wrap:anywhere}
+.docs-current{display:flex;align-items:center;flex-wrap:wrap;gap:12px;background:var(--accent);padding:16px;border-radius:9px;margin-bottom:24px}
+.docs-current>span{color:var(--muted);font-size:12px}
+.docs-current>b{font-size:12px;margin-left:auto}
+.docs-note{padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--accent)}
+.docs-note .text-button{margin-top:12px}
+.docs-definitions{margin:0 0 18px}
+.docs-definitions>div{padding:17px 0;border-bottom:1px solid var(--line)}
+.docs-definitions>div:first-child{padding-top:0}
+.docs-definitions>div:last-child{border-bottom:0;padding-bottom:0}
+.docs-definitions dt{font-weight:650;margin-bottom:6px}
+.docs-definitions dd{margin:0}
+.docs-faq details{border-top:1px solid var(--line);padding:16px 0}
+.docs-faq details:last-child{padding-bottom:0}
+.docs-faq summary{cursor:pointer;font-weight:600;line-height:1.7}
+.docs-faq summary:focus-visible{outline:3px solid var(--green);outline-offset:4px}
+.docs-faq p{margin:12px 0 0 18px}
+@media(max-width:900px){.docs-section{padding:22px}.docs-current>b{margin-left:0}.docs-page .page-heading h1{font-size:27px}}
+.sidebar{overflow-y:auto}
+@media(max-height:720px){.sidebar{padding-top:22px}.workspace-label{margin-top:28px}.shortcut-tip{margin:16px 8px 14px;padding:12px}.profile{padding-top:12px;padding-bottom:12px}}
