@@ -9,6 +9,27 @@ model is not part of Bol's open-source code.
 
 Bol uses **MAI Transcribe 2 through OpenRouter**. MAI is the only model used by the app. Dictation language defaults to Auto-detect; select one of MAI's 60 supported languages in Settings to send a language hint. The transcription keeps the writing system returned by MAI.
 
+## Screenshots
+
+Screenshots of Bol v1.0.0 on Windows in Light appearance.
+
+**Settings** — configure your API key, microphone, and dictation language.
+
+![Bol Settings showing microphone controls and language selection; the API key input is empty](docs/images/settings.jpg)
+
+<details>
+<summary>Vocabulary and built-in guide</summary>
+
+**Vocabulary** — add recognition hints for names and technical terms.
+
+![Bol Vocabulary showing the dictionary entry form](docs/images/vocabulary.jpg)
+
+**Docs** — follow the setup guide inside the app.
+
+![Bol built-in guide showing API key setup and local microphone testing instructions](docs/images/docs.jpg)
+
+</details>
+
 ## Install and start
 
 1. Run `Bol_1.0.0_x64-setup.exe` from the release download. Locally prepared files are in `release/`; public downloads will be attached to the repository's Releases page when published. The installer is unsigned.
