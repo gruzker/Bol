@@ -32,7 +32,7 @@ Screenshots of Bol v1.0.0 on Windows in Light appearance.
 
 ## Install and start
 
-1. Run `Bol_1.0.0_x64-setup.exe` from the release download. Locally prepared files are in `release/`; public downloads will be attached to the repository's Releases page when published. The installer is unsigned.
+1. Download and run [`Bol_1.0.0_x64-setup.exe`](https://github.com/gruzker/Bol/releases/download/v1.0.0/Bol_1.0.0_x64-setup.exe) from [Bol v1.0.0](https://github.com/gruzker/Bol/releases/tag/v1.0.0). For portable use, extract [`Bol_1.0.0_windows-x64.zip`](https://github.com/gruzker/Bol/releases/download/v1.0.0/Bol_1.0.0_windows-x64.zip). Locally prepared files are in `release/`. The installer is unsigned.
 2. Open Bol → **Settings**. Enter your OpenRouter API key and select **Check & save key**. This checks the key without making a paid transcription request.
 3. Select your microphone, then use **Test microphone**. Speak briefly and finish the test; test audio is never uploaded.
 4. Click a text field in another app. Hold **Ctrl + Shift + Space**, speak, then release. Alternatively, select the start/stop recording mode in Settings.
@@ -118,16 +118,16 @@ Copyright (c) 2026 Sanjay Ahlawat. Bol's own code is licensed under MIT;
 dependencies retain their original licenses. See [third-party notices](THIRD_PARTY_NOTICES.md),
 [contribution instructions](CONTRIBUTING.md), and [security reporting](SECURITY.md).
 
-## Preparing the public release
+## Preparing future releases
 
-The repository has not yet been published. Before launch:
+[Bol v1.0.0](https://github.com/gruzker/Bol/releases/tag/v1.0.0) is published. For future releases:
 
-1. Create the public repository, enable private vulnerability reporting, and
-   confirm ownership or permission for submitted code and assets.
+1. Review private vulnerability reporting settings and confirm ownership or
+   permission for submitted code and assets.
 2. Commit source, configuration, tests, license notices, and lockfiles. Keep
    ignored credentials, local data, build outputs, and release binaries out of Git.
 3. Test the installer/upgrade and real dictation in target Windows editors.
-4. Tag the reviewed source `v1.0.0` and create a matching release. Attach the
+4. Tag the reviewed source with the next version and create a matching release. Attach the
    installer and the standalone distribution ZIP containing the executable,
    MIT license, and third-party notices. Preserve these notices in redistributions.
 5. Link the website to that repository, its license, releases, and issue tracker.
